@@ -115,3 +115,33 @@ p{
     /* border: 1px solid; */
 }
 
+/* Responsive Media query */
+@media screen and (max-width:575px) {
+    .header{
+        height: 225vh;
+    }
+    .navBar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        height: 37vh;
+    }
+    .navBar div{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+    .banner-element{
+        width: 100%;
+        
+    }
+    .banner-container img{
+        width: 100%;
+    }
+    
+}
