@@ -1,13 +1,48 @@
 body{
     max-width: 1140px;
     margin: 0 auto;
-    border: 1px solid red;
     font-family: sans-serif;
+    /* border: 1px solid red; */
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 1rem 0;
+}
+h2{
+    font-size: 3.3rem;
+    font-weight: 800;
+    margin: 0;
+}
+h3{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0;
+}
+h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    opacity: .8;
+    margin: 1rem 0;
+}
+
+.header{
+    background-image: url("../images/developer.png"), 
+                      url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+    height: 49rem;
 }
 
 .navBar{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 1rem;
     height: 5rem;
@@ -17,7 +52,6 @@ body{
 }
 
 .navBar h3{
-    font-size: 2.8rem;
     font-weight: 800;
     /* border: 1px solid; */
 }
@@ -46,7 +80,7 @@ body{
     color: #fff;
     border: none;
     padding: 1rem 2rem;
-    border-radius: 0.2rem;
+    border-radius: 0.5rem;
     font-size: 1.3rem;
     font-weight: 500;
     cursor: pointer;
@@ -59,3 +93,25 @@ body{
 .btn:active{
     box-shadow: none;
 }
+
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 89.5%;
+    /* border: 1px solid; */
+}
+
+.banner-element{
+    margin-left: 8rem;
+    width: 40%;
+    margin-top: auto;
+    margin-bottom: auto;
+    /* border: 1px solid; */
+}
+
+.banner-container img{
+    width: 50%;
+    /* border: 1px solid; */
+}
+
