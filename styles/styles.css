@@ -1,0 +1,48 @@
+body{
+    max-width: 1140px;
+    margin: 0 auto;
+    border: 1px solid red;
+    font-family: sans-serif;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: lightcoral; */
+    /* border: 1px solid green; */
+}
+
+.navBar h3{
+    font-size: 2rem;
+    font-weight: 800;
+    /* border: 1px solid; */
+}
+
+.navBar > h3 span{
+    color: #FD6E0A;
+}
+.navBar div{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.navBar > div a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navBar > div button{
+    background-color: #FD6E0A;
+    color: #fff;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
